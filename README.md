@@ -1,0 +1,1 @@
+Clone do Netflix criado apenas para fins didáticos.
