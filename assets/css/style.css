@@ -330,3 +330,57 @@ body{
     transform: all;
     border-top: 1px solid #aaa;
 }
+
+.container4{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 68px;
+}
+
+.container4 footer p{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 36px;
+    margin-left: 50px;
+}
+
+.container4 footer .contFooter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 719px){
+    .container4 footer .contFooter{
+        justify-content: center;
+        text-align: center;
+    }
+    .container4 footer p{
+        text-align: center;
+    }
+}
+
+.container4 footer .contFooter .contFooterItem1{
+    max-width: 190px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.marginContFooter{
+    margin-left: 50px;
+}
+
+.container4 footer .contFooter .contFooterItem1 a{
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.container4 footer .contFooter .contFooterItem1 a span{
+    font-size: 16px;
+    color: #757575;
+}
+.contCardInt2{
+    padding-bottom: 4%;
+}
